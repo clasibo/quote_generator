@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ysabeau&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Quote_Generator</title>
+</head>
+<body>
+
+	<div class="container" id="container">
+		<!-- Quote -->
+		<div class="text">
+			<!--https://fontawesome.com/-->
+			<i class="fas fa-quote-left"></i>
+			<span id="quote"></span> 
+	<!-- for the quote itself we'll use a html span because the quote represent only text and in our case it need no space to be alocated-->
+		</div>
+		<!-- Author -->
+		<div class='author'>
+			<span id="author"></span>
+		</div>
+		<!-- Buttons -->
+		<div class="button">
+			<a href="https://www.facebook.com/" target="_blank">
+			 <button class="fb-button" id="fb" title="Add to your wall">
+                <i class="fab fa-facebook"></i>
+            </button></a>
+            	<a href="https://twitter.com/i/flow/login" target="_blank">
+			 <button class="fb-button" id="tw" title="twitt">
+                <i class="fab fa-twitter"></i>
+            </button></a>
+			<button id="new-quote">New Quote</button>
+
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="quotes.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
